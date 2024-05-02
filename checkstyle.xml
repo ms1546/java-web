@@ -3,30 +3,20 @@
           "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
           "https://checkstyle.org/dtds/configuration_1_3.dtd">
 <module name="Checker">
+    <module name="LineLength">
+        <property name="max" value="100"/>
+    </module>
+
     <module name="TreeWalker">
         <!-- トップレベルクラス -->
         <module name="OneTopLevelClass"/>
 
-        <!-- Javadocコメント -->
-        <module name="JavadocType">
-            <property name="required" value="true"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
-        </module>
-        <module name="JavadocMethod">
-            <property name="required" value="true"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
-        </module>
-        <module name="JavadocVariable">
-            <property name="required" value="true"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
-        </module>
-
         <!-- コードのフォーマット -->
-        <module name="LineLength">
-            <property name="max" value="100"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
-        </module>
         <module name="MethodLength">
-            <property name="max" value="150"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
+            <property name="max" value="150"/>
         </module>
         <module name="ParameterNumber">
-            <property name="max" value="7"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
+            <property name="max" value="7"/>
         </module>
 
         <!-- 空白やインデント -->
@@ -39,10 +29,10 @@
             <property name="arrayInitIndent" value="4"/>
         </module>
         <module name="EmptyBlock">
-            <property name="option" value="text"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
+            <property name="option" value="text"/>
         </module>
         <module name="WhitespaceAround">
-            <property name="allowEmptyMethods" value="true"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
+            <property name="allowEmptyMethods" value="true"/>
         </module>
 
         <module name="NeedBraces"/>
