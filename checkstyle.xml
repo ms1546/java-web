@@ -9,40 +9,40 @@
 
         <!-- Javadocコメント -->
         <module name="JavadocType">
-            <property name="required", value="true"/>
+            <property name="required" value="true"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
         </module>
         <module name="JavadocMethod">
-            <property name="required", value="true"/>
+            <property name="required" value="true"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
         </module>
         <module name="JavadocVariable">
-            <property name="required", value="true"/>
+            <property name="required" value="true"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
         </module>
 
         <!-- コードのフォーマット -->
         <module name="LineLength">
-            <property name="max", value="100"/>
+            <property name="max" value="100"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
         </module>
         <module name="MethodLength">
-            <property name="max", value="150"/>
+            <property name="max" value="150"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
         </module>
         <module name="ParameterNumber">
-            <property name="max", value="7"/>
+            <property name="max" value="7"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
         </module>
 
         <!-- 空白やインデント -->
         <module name="Indentation">
-            <property name="basicOffset", value="4"/>
-            <property name="braceAdjustment", value="0"/>
-            <property name="caseIndent", value="4"/>
-            <property name="throwsIndent", value="4"/>
-            <property name="lineWrappingIndentation", value="8"/>
-            <property name="arrayInitIndent", value="4"/>
+            <property name="basicOffset" value="4"/>
+            <property name="braceAdjustment" value="0"/>
+            <property name="caseIndent" value="4"/>
+            <property name="throwsIndent" value="4"/>
+            <property name="lineWrappingIndentation" value="8"/>
+            <property name="arrayInitIndent" value="4"/>
         </module>
         <module name="EmptyBlock">
-            <property name="option", value="text"/>
+            <property name="option" value="text"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
         </module>
         <module name="WhitespaceAround">
-            <property name="allowEmptyMethods", value="true"/>
+            <property name="allowEmptyMethods" value="true"/> <!-- 修正: カンマを取り除いてスペースに置き換え -->
         </module>
 
         <module name="NeedBraces"/>
